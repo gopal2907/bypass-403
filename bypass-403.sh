@@ -1,7 +1,7 @@
 #! /bin/bash
 figlet Bypass-403
 echo "                                               By Iam_J0ker"
-echo "./bypass-403.sh https://example.com path"
+echo "./bypass-403.sh https://realdeepfakes.com/get_file/3/87abcad9d5dffb704062abd33e460bce26a5142048/7000/7783/7783_480p.mp4 path"
 echo " "
 curl -k -s -o /dev/null -iL -w "%{http_code}","%{size_download}" $1/$2
 echo "  --> ${1}/${2}"
